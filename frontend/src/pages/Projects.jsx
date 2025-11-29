@@ -28,13 +28,7 @@ function Projects() {
       title: "Giftora.info",
       description:
         "Engineered a front-end e-commerce platform for premium gift hampers using React.js and Tailwind CSS. Designed an engaging product catalog with modal item views, smooth UI transitions using Framer Motion, and a mobile-first responsive layout. Implemented global state handling with Zustand and optimized build performance through Vite's tooling.",
-      tech: [
-        "React",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Zustand",
-        "Vite",
-      ],
+      tech: ["React", "Tailwind CSS", "Framer Motion", "Zustand", "Vite"],
       demo: "https://www.giftora.info",
       image: "/projects/giftora.png",
     },
@@ -42,13 +36,7 @@ function Projects() {
       title: "Studio15Architects.co.uk",
       description:
         "Developed a responsive portfolio website to showcase projects and services using React 19, React Router, Vite, Tailwind CSS, Swiper.js, Netlify, and FormSubmit API. Built a SPA with dynamic routing, individual project detail pages, image carousels, and a contact form. Implemented smooth transitions, image optimization, and lazy loading.",
-      tech: [
-        "React 19",
-        "React Router",
-        "Tailwind CSS",
-        "Swiper.js",
-        "Vite",
-      ],
+      tech: ["React 19", "React Router", "Tailwind CSS", "Swiper.js", "Vite"],
       demo: "https://www.studio15architects.co.uk",
       image: "/projects/studio15architects.png",
     },
@@ -56,32 +44,17 @@ function Projects() {
       title: "Chat App",
       description:
         "Developed a full-stack real-time chat application enabling secure and seamless user communication. Integrated JWT-based authentication, bcrypt-hashed password storage, and WebSocket-powered messaging via Socket.io. Managed state using Zustand and built a fully responsive frontend.",
-      tech: [
-        "React",
-        "Node.js",
-        "Socket.io",
-        "MongoDB",
-        "JWT",
-        "Zustand",
-      ],
+      tech: ["React", "Node.js", "Socket.io", "MongoDB", "JWT", "Zustand"],
       demo: "#",
-      image: "/projects/chat-app.jpg",
+      image: "/projects/chatapp.png",
     },
     {
       title: "Movie Recommendation System",
       description:
         "Developed a hybrid ML-powered application that uses image processing and Convolutional Neural Networks (CNN) to detect user emotions and provide personalized movie recommendations using advanced machine learning concepts.",
-      tech: [
-        "Python",
-        "CNN",
-        "React",
-        "Node.js",
-        "Flask",
-        "MySQL",
-        "ML",
-      ],
+      tech: ["Python", "CNN", "React", "Node.js", "Flask", "MySQL", "ML"],
       demo: "#",
-      image: "/projects/movie-recommendation.jpg",
+      image: "/projects/moodflix.png",
     },
     {
       title: "Ticket Modeling System",
@@ -89,15 +62,12 @@ function Projects() {
         "Modelled a ticketing system consisting of a shared ticket machine used by passengers and serviced by two technicians using FSP (Finite State Processes) and implementing it in Java with concurrency features.",
       tech: ["Java", "Concurrency", "FSP", "OOP"],
       demo: "#",
-      image: "/projects/ticket-system.jpg",
+      image: "/projects/ticketmodelling.png",
     },
   ];
 
   return (
-    <section
-      id="projects"
-      className="py-12 sm:py-16 md:py-20 px-4 bg-black/50"
-    >
+    <section id="projects" className="py-12 sm:py-16 md:py-20 px-4 bg-black/50">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-12 text-[#b9ff1c]">
           Projects
@@ -164,4 +134,3 @@ function Projects() {
 }
 
 export default Projects;
-
